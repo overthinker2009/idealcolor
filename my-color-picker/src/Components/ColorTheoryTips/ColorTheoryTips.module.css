@@ -1,0 +1,32 @@
+/* ColorTheoryTips.module.css */
+.container {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+.title {
+  text-align: center;
+  color: #333;
+}
+
+.section {
+  margin-bottom: 20px;
+}
+
+.subtitle {
+  color: #007BA7;
+}
+
+.list {
+  padding-left: 20px;
+}
+
+.footer {
+  text-align: center;
+  font-style: italic;
+  color: #777;
+}

@@ -1,0 +1,37 @@
+.paletteContainer {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.colorSwatch {
+  width: 150px;
+  height: 70px;
+  cursor: pointer;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.colorSwatch:hover {
+    transform: scale(1.1); 
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  }
+
+@media (max-width: 768px) {
+  .paletteContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin-top: 20px;
+  }
+}
+
+@media (max-width:468px) {
+  .paletteContainer {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+
+  }
+}
